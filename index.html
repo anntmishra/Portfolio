@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c409c8fcf9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <!-- <img class="background" src="./images/2131.png" > -->
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                
+                <p>Web Developer(Learning)</p>
+                <h1>Hi, I'm <span>Anant</span><br> Mishra From India </h1>
+             
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Hi, I'm Anant Mishra a B.Tech CSE student from Prayagraj, Uttar Pradesh. I am currently learning web development and have a basic knowledge of Java and Python. In addition to my programming skills, I have a strong aptitude for design, which I integrate into my web development projects. I am passionate about leveraging technology to create innovative and user-friendly solutions.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML<br>CSS<br>Java Script</li>
+                            <li><span>Programming Language</span><br>Java<br>Python</li>
+                            <li><span>Design Skills</span><br>UI/UX Design<br>Graphic Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>IEEE Design Core Team</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                             <li><span>B.Tech in Computer Science and Engineering </span><br>Bennett University, Greater Noida<br>2023 - 2027</li>
+                            <li><span>Higher Secondary Education (Class X and XII)</span><br>Delhi Public School, Azaad Nagar, Kanpur<br>2023</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------services----------->
+<div id="services">
+    <div class="containers">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Create responsive and dynamic websites tailored to clients' needs using HTML, CSS, and JavaScript.</p>
+            
+        </div>
+        <div>
+            <i class="fas fa-paint-brush"></i>
+            <h2>Graphic Design</h2>
+            <p>Deliver visually stunning and impactful graphic designs that effectively communicate your brand's message and engage your audience.</p>
+            
+        </div>
+        <div>
+            <i class="fas fa-cogs"></i>
+            <h2>Software Development</h2>
+            <p>Develop software applications or scripts using Java and Python to automate tasks or solve specific problems</p>
+            
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------portfolio----------->
+<div id="portfolio">
+    <div class="containers">
+        <h1 class="sub-title">Portfolio</h1>
+    
+    <div class="portfolio-list">
+        <div class="portfolio-item">
+            <img src="images/hehe.gif" alt="Portfolio Image 1">
+            <div class="layer">
+                <h3>Cogito Chatbot</h3>
+                <p>Introducing Cogito, your cool and efficient chatbot companion. From answering questions to assisting with tasks, Cogito is here to help. Friendly and knowledgeable, Cogito makes life simpler and more enjoyable!</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="./images/hehe2.gif" alt="Portfolio Image 2">
+            <div class="layer">
+                <h3>Employee Management System</h3>
+                <p>Introducing the Employee Management System, your secure and efficient tool for adding, updating, and removing employees. With secure login and a robust database, managing your workforce has never been easier!</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+        
+        <!-- Add more portfolio items as needed -->
+    </div>
+</div>
+
+
+ 
+
+<!-- -------------------social media---------------- -->
+<div id="contact">
+    <div class="container">
+        
+        
+        <div class="social-media-links">
+            <a href="https://www.instagram.com/anntmishra" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/anntmishra" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/anant-mishra-5a661a292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:anantmishra249@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        </div>
+       
+    </div>
+</div>
+
+<!-----------------contacts------------------>
+<div class="contact-right">
+    <h2>Contact Us</h2>
+<form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Your Name" required> 
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+
+</div>
+
+    <div class="text">
+        <a href="./images/CV.pdf" download class="download-btn">
+            <span class="text">Download CV</span>
+            <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24"><path d="M5 20h14v-2h-14v2zm7-16l-6 6h4v6h4v-6h4l-6-6z"/></svg>
+            </span>
+        </a>
+    </div>
+</div>
+<div class="copyright">
+    <p>&copy; 2023 Anant Mishra. All rights reserved.</p>
+
+</div>
+<script>
+        var tablinks = document.getElementsByClassName('tab-links');
+
+    
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tab){
+            for(i=0; i<tablinks.length; i++){
+                tablinks[i].classList.remove('active-link');
+            }
+            for(i=0; i<tabcontents.length; i++){
+                tabcontents[i].classList.remove('active-tab');
+            }
+            document.getElementById(tab).classList.add('active-tab');
+            event.currentTarget.classList.add('active-link');
+        }
+        
+
+
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzHHfo_qUKwSsjtVj7_J69ua3MDN0fWKEUb-fZesSv2wM0-By8B0ylHAvsJcRYcZmtvrw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById('msg')
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML = "Form submitted successfully!";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 2000);
+            })
+            form.reset();
+
+        })
+
+  </script>
+
+
+
+</body>
+</html>
+
+
